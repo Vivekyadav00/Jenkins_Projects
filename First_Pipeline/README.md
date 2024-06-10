@@ -1,4 +1,4 @@
-Jenkins Pipeline on AWS EC2 with Docker
+CI/CD Pipeline Implementation with Jenkins and Docker on AWS EC2
 
 Project Overview
 This project sets up a CI/CD pipeline using Jenkins on an Amazon EC2 instance, leveraging Docker as an agent to ensure a consistent environment. The goal is to automate the testing and build processes for both back-end and front-end parts of an application.
@@ -76,11 +76,19 @@ Container Management:
 
 Docker containers were created for each stage and removed after use.
 Advantages
+
 Automation: The setup automates testing and builds, making development faster.
+
 Consistency: Docker ensures the same environment is used every time.
+
 Efficiency: Docker containers are lightweight and manage resources well.
+
 Isolation: Each part of the pipeline runs in its own container, avoiding conflicts.
+
 Portability: Docker containers can run anywhere Docker is supported.
+
 Reproducibility: Docker images can be saved and reused, ensuring the environment can be exactly replicated.
+
 Conclusion
+
 Using Jenkins with Docker as an agent on an AWS EC2 instance automates and streamlines the testing and build processes for back-end and front-end components. This setup is efficient, consistent, and easily scalable for future needs.
