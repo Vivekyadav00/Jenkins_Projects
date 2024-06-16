@@ -24,7 +24,7 @@ Test Pipeline Script
 The first pipeline, using Docker as an agent, checks the Node.js version.
 
 groovy
-Copy code
+
 pipeline {
   agent {
     docker { image 'node:16-alpine' }
@@ -41,7 +41,7 @@ Build Pipeline Script
 The second pipeline has two stages, each using Docker as an agent: one for back-end and one for front-end.
 
 groovy
-Copy code
+
 pipeline {
   agent none
   stages {
