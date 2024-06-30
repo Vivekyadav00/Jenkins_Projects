@@ -1,4 +1,4 @@
-From openjdk:21-jdk-alpine
+FROM openjdk:21-jdk-alpine
 
 ARG artifact=target/spring-boot-web.jar
 WORKDIR /user/app
